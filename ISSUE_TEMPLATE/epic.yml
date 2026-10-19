@@ -1,0 +1,34 @@
+name: "Épica"
+description: "Objetivo grande de negocio que agrupa varias features"
+title: "[Épica] "
+type: "Epic"
+body:
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo de negocio
+      description: "¿Qué problema resuelve y para quién?"
+    validations:
+      required: true
+  - type: textarea
+    id: kpi
+    attributes:
+      label: Cómo sabremos que funcionó (KPI o resultado esperado)
+    validations:
+      required: true
+  - type: textarea
+    id: alcance
+    attributes:
+      label: Alcance
+      value: |
+        **Dentro del alcance:**
+        -
+
+        **Fuera del alcance:**
+        -
+    validations:
+      required: true
+  - type: textarea
+    id: riesgos
+    attributes:
+      label: Riesgos y supuestos
