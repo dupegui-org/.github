@@ -1,0 +1,23 @@
+name: "Feature"
+description: "Capacidad funcional entregable, parte de una épica"
+title: "[Feature] "
+type: "Feature"
+body:
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción
+      description: "¿Qué capacidad tendrá el usuario al terminar?"
+    validations:
+      required: true
+  - type: textarea
+    id: valor
+    attributes:
+      label: Valor para el cliente
+    validations:
+      required: true
+  - type: input
+    id: epica
+    attributes:
+      label: Épica a la que pertenece
+      description: "Número del issue, por ejemplo #12 (después enlázala como sub-issue)"
