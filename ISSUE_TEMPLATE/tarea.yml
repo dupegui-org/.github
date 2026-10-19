@@ -1,0 +1,24 @@
+name: "Tarea técnica"
+description: "Trabajo técnico concreto, normalmente hija de una historia"
+title: "[Tarea] "
+type: "Task"
+body:
+  - type: textarea
+    id: que
+    attributes:
+      label: Qué hay que hacer
+    validations:
+      required: true
+  - type: textarea
+    id: hecho
+    attributes:
+      label: Está terminada cuando
+      value: |
+        - [ ]
+    validations:
+      required: true
+  - type: input
+    id: historia
+    attributes:
+      label: Historia a la que pertenece
+      description: "Número del issue, por ejemplo #34"
