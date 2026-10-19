@@ -1,0 +1,62 @@
+name: "Historia de usuario"
+description: "Requisito desde la perspectiva del usuario, con criterios de aceptación"
+title: "[Historia] "
+type: "User Story"
+body:
+  - type: textarea
+    id: historia
+    attributes:
+      label: Historia
+      value: |
+        **Como** <rol>
+        **quiero** <capacidad>
+        **para** <beneficio>
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación (Gherkin)
+      value: |
+        Escenario: <nombre>
+          Dado <contexto>
+          Cuando <acción>
+          Entonces <resultado observable>
+    validations:
+      required: true
+  - type: textarea
+    id: ears
+    attributes:
+      label: Requisitos no funcionales (EARS, opcional)
+      description: "Ej.: Cuando el usuario envía el formulario, el sistema deberá responder en menos de 2 segundos."
+  - type: textarea
+    id: notas
+    attributes:
+      label: Notas técnicas y diseño
+      description: "Enlaces a diseños, APIs, decisiones previas (ADR)"
+  - type: textarea
+    id: preguntas
+    attributes:
+      label: Preguntas abiertas para el cliente
+      description: "Preguntas que no bloquean el desarrollo. Marca la casilla cuando el cliente responda y escribe la respuesta al lado. Las respuestas largas van en un comentario."
+      value: |
+        - [ ] Pregunta: ... | Respuesta:
+  - type: checkboxes
+    id: dor
+    attributes:
+      label: Definition of Ready
+      description: "Marca todo antes de pasar la historia a Ready"
+      options:
+        - label: Criterios de aceptación verificables
+        - label: Diseño o UX adjunto, o no aplica
+        - label: Dependencias identificadas (blocked by)
+        - label: Estimada (Effort) y cabe en un sprint
+        - label: Validada con el cliente o el PO
+  - type: textarea
+    id: cambios
+    attributes:
+      label: Cambios acordados
+      description: "Una fila por cada cambio importante después de que la historia fue validada. No borres filas."
+      value: |
+        | # | Fecha | Qué cambió | Por qué | Aprobó |
+        |---|-------|------------|---------|--------|
