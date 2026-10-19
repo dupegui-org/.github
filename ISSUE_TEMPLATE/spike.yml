@@ -1,0 +1,25 @@
+name: "Spike (investigación)"
+description: "Investigación con tiempo limitado para reducir incertidumbre"
+title: "[Spike] "
+type: "Spike"
+body:
+  - type: textarea
+    id: pregunta
+    attributes:
+      label: Pregunta que hay que responder
+    validations:
+      required: true
+  - type: input
+    id: timebox
+    attributes:
+      label: Tiempo máximo (timebox)
+      placeholder: "Ej.: 4 horas"
+    validations:
+      required: true
+  - type: textarea
+    id: salida
+    attributes:
+      label: Salida esperada
+      description: "Normalmente un ADR en el repo architecture, o un comentario con la conclusión"
+    validations:
+      required: true
