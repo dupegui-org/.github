@@ -1,0 +1,12 @@
+name: "Captura rápida"
+description: "Una idea, pregunta o propuesta. Se clasifica después."
+title: "[Inbox] "
+labels: ["inbox"]
+body:
+  - type: textarea
+    id: nota
+    attributes:
+      label: Nota
+      description: "Escríbelo como te salga. Si sabes a qué historia pertenece, menciónala (#34)."
+    validations:
+      required: true
