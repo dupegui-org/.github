@@ -1,7 +1,7 @@
 name: "Épica"
 description: "Objetivo grande de negocio que agrupa varias features"
-title: "[Épica] "
 type: "Epic"
+projects: ["dupegui-org/1"]
 body:
   - type: textarea
     id: objetivo

@@ -1,7 +1,7 @@
 name: "Bug"
 description: "Algo no funciona como se esperaba"
-title: "[Bug] "
 type: "Bug"
+projects: ["dupegui-org/1"]
 body:
   - type: textarea
     id: pasos
@@ -39,6 +39,7 @@ body:
     id: severidad
     attributes:
       label: Severidad
+      description: "Qué tan grave es el impacto. La prioridad (Priority) se decide en el refinamiento usando esta severidad."
       options:
         - Crítica (sistema caído o pérdida de datos)
         - Alta (función principal rota)

@@ -1,7 +1,7 @@
 name: "Spike (investigación)"
 description: "Investigación con tiempo limitado para reducir incertidumbre"
-title: "[Spike] "
 type: "Spike"
+projects: ["dupegui-org/1"]
 body:
   - type: textarea
     id: pregunta
@@ -20,6 +20,6 @@ body:
     id: salida
     attributes:
       label: Salida esperada
-      description: "Normalmente un ADR en el repo architecture, o un comentario con la conclusión"
+      description: "Normalmente un ADR (en docs/adr/ del repo del producto, o en decisiones/ del handbook si aplica a toda la organización), o un comentario con la conclusión"
     validations:
       required: true
