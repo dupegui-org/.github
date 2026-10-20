@@ -1,7 +1,7 @@
 name: "Historia de usuario"
 description: "Requisito desde la perspectiva del usuario, con criterios de aceptación"
-title: "[Historia] "
 type: "User Story"
+projects: ["dupegui-org/1"]
 body:
   - type: textarea
     id: historia

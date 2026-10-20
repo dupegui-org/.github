@@ -1,8 +1,11 @@
 name: "Feature"
 description: "Capacidad funcional entregable, parte de una épica"
-title: "[Feature] "
 type: "Feature"
+projects: ["dupegui-org/1"]
 body:
+  - type: markdown
+    attributes:
+      value: "Al crearla, enlázala a su épica en la barra lateral (Relationships → Add parent). La relación padre-hijo vive ahí, no en el texto."
   - type: textarea
     id: descripcion
     attributes:
@@ -16,8 +19,3 @@ body:
       label: Valor para el cliente
     validations:
       required: true
-  - type: input
-    id: epica
-    attributes:
-      label: Épica a la que pertenece
-      description: "Número del issue, por ejemplo #12 (después enlázala como sub-issue)"

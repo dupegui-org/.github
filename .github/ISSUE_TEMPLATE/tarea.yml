@@ -1,8 +1,11 @@
 name: "Tarea técnica"
 description: "Trabajo técnico concreto, normalmente hija de una historia"
-title: "[Tarea] "
 type: "Task"
+projects: ["dupegui-org/1"]
 body:
+  - type: markdown
+    attributes:
+      value: "Al crearla, enlázala a su historia en la barra lateral (Relationships → Add parent). La relación padre-hijo vive ahí, no en el texto."
   - type: textarea
     id: que
     attributes:
@@ -17,8 +20,3 @@ body:
         - [ ]
     validations:
       required: true
-  - type: input
-    id: historia
-    attributes:
-      label: Historia a la que pertenece
-      description: "Número del issue, por ejemplo #34"

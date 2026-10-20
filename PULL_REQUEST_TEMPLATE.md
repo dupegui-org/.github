@@ -7,10 +7,8 @@ Closes #
 ## Cómo probarlo
 <!-- Pasos o comandos -->
 
-## Definition of Done
-- [ ] El CI está en verde
-- [ ] Hay tests automatizados para cada escenario de los criterios de aceptación
+## Definition of Done del PR
+- [ ] Hay tests automatizados para los escenarios de aceptación que toca este PR
 - [ ] No hay secretos, contraseñas ni datos de clientes en el código ni en los logs
 - [ ] Documentación o ADR actualizados si hubo una decisión
-- [ ] Probado en staging contra los criterios de aceptación
-- [ ] Alguien distinto al autor revisó el PR
+- [ ] Revisado: por alguien distinto al autor o, si no hay otra persona, autorrevisión con este checklist. Si el autor es un agente, revisa un humano.
