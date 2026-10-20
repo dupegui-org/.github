@@ -1,8 +1,12 @@
 name: "Captura rápida"
-description: "Una idea, pregunta o propuesta. Se clasifica después."
+description: "Una idea, pregunta o posible bug. Se clasifica después."
 title: "[Inbox] "
 labels: ["inbox"]
+projects: ["dupegui-org/1"]
 body:
+  - type: markdown
+    attributes:
+      value: "Agrega en la barra lateral uno de estos labels: `pregunta`, `idea` o `posible-bug`. Si la nota no es de ningún producto, créala en el repo `handbook`."
   - type: textarea
     id: nota
     attributes:
