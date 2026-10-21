@@ -51,7 +51,7 @@ body:
         - label: Diseño o UX adjunto, o no aplica
         - label: Dependencias identificadas (blocked by)
         - label: Estimada (Puntos, máximo 8) y cabe en una iteración
-        - label: Validada con el cliente o el PO
+        - label: Validada con el cliente
   - type: textarea
     id: cambios
     attributes:
