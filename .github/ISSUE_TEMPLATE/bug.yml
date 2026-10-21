@@ -39,7 +39,7 @@ body:
     id: severidad
     attributes:
       label: Severidad
-      description: "Qué tan grave es el impacto. La prioridad (Priority) se decide en el refinamiento usando esta severidad."
+      description: "Qué tan grave es el impacto. La Prioridad se decide en el refinamiento usando esta severidad."
       options:
         - Crítica (sistema caído o pérdida de datos)
         - Alta (función principal rota)
