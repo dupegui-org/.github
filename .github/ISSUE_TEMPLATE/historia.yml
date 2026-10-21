@@ -50,7 +50,7 @@ body:
         - label: Criterios de aceptación verificables
         - label: Diseño o UX adjunto, o no aplica
         - label: Dependencias identificadas (blocked by)
-        - label: Estimada (Effort) y cabe en un sprint
+        - label: Estimada (Puntos, máximo 8) y cabe en una iteración
         - label: Validada con el cliente o el PO
   - type: textarea
     id: cambios
